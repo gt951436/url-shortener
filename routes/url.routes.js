@@ -1,8 +1,7 @@
 const express = require("express");
-const {} = require("../controllers");
-const { handleGenerateNewShortURL } = require("../controllers/url.controllers");
+const { handleGenerateNewShortURL } = require("../controllers/url.controllers.js");
 const router = express.Router();
 
 router.post("/", handleGenerateNewShortURL);
 
-models.exports = mewinf
+module.exports = router;
